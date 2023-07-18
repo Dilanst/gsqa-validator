@@ -1,4 +1,4 @@
-package com.greensqa.parsertextgsqa.controller;
+package com.greensqa.parsertextgsqa.service;
 import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
 

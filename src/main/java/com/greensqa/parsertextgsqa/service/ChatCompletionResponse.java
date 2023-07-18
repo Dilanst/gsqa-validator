@@ -1,4 +1,4 @@
-package com.greensqa.parsertextgsqa.controller;
+package com.greensqa.parsertextgsqa.service;
 import java.util.List;
 
 public class ChatCompletionResponse {

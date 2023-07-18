@@ -1,4 +1,4 @@
-package com.greensqa.parsertextgsqa.controller;
+package com.greensqa.parsertextgsqa.service;
 import com.google.gson.Gson;
 
 public class ContentParser {
