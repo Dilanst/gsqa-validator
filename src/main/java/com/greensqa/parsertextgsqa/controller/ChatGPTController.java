@@ -13,10 +13,10 @@ import com.greensqa.parsertextgsqa.service.ChatGPTClient;
 public class ChatGPTController {
 
 	@PostMapping
-	public ResponseEntity<String> parser(@RequestBody String us) {
+	public ResponseEntity<String> parser(@RequestHeader("Authorization") String authorizationHeader,@RequestBody String userStory) {
 
 		try {
-			String respuesta = ChatGPTClient.askQuestion(us);
+			String respuesta = ChatGPTClient.askQuestion(userStory,authorizationHeader);
 			return ResponseEntity.ok(respuesta);
 		} catch (Exception e) {
 			e.printStackTrace();
