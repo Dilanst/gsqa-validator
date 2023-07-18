@@ -3,7 +3,7 @@ import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
 
 public class ChatGPTClient {
-	private static final String OPENAI_API_KEY = "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";
+	private static final String OPENAI_API_KEY = "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";
 	private static final String OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
 	private static final String REQUEST = """
 			{
